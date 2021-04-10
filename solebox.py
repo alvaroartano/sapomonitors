@@ -58,8 +58,7 @@ def discord_webhook(product_item):
     data["embeds"] = []
     embed = {}
     if product_item == 'initial':
-        embed["description"] = "Los monitores de Sapollín AIO están readys BRRRR " \
-                               "Monitores activos: `Solebox` " 
+        embed["description"] = "Buenas noches BRRR!"
     else:
         embed["title"] = f'{product_item[0]} {product_item[1]}'
         embed['url'] = f'https://www.solebox.com{product_item[2]}'
