@@ -100,7 +100,6 @@ def monitor():
     """
     print('STARTING MONITOR')
     logging.info(msg='Successfully started monitor')
-    discord_webhook('initial')
     start = 1
     proxy_no = 0
 
